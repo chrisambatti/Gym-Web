@@ -1,7 +1,3 @@
-Here's a well-structured, easy-to-understand **README** for your [Gym Web project](https://github.com/chrisambatti/Gym-Web), with multiple sections to explain the project, its tech stack, and usage.
-
----
-
 # 💪 Gym Web
 
 A simple and modern gym website built to showcase gym services, attract members, and provide essential fitness information. This project is designed with clean UI, responsive design, and easy navigation in mind.
