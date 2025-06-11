@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title style="color: white;">ChrisLifts</title>
+    <link rel="icon" href="assets/icons8-gym-64 (1).png">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" style="color: white;"><img src="assets/icons8-gym-64 (1).png" alt="logo">CHRISLIFTS</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div> 
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home"style="color: white;">Home</a></li>
+          <li class="link"><a href="#about" style="color: white;">My Story</a></li>
+          <li class="link"><a href="#diet" style="color: white;">My Diet</a></li>
+          <li class="link"><a href="#video" style="color: white;">My Videos</a></li>
+          <a href="calories.html">
+          <li class="link diet-btn"><a href="#video" style="color: white;">Plan your diet</a></li></li>
+          </a>
+          
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/Dark-bicep-fotor-bg-remover-2024020123544.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4 style="color: white;">Christopher Ambatti</h4>
+          <h1 class="section__header" style="color: white;">BE THE BEST</h1>
+          <p style="color: white;">
+           Unlock your potential and begin a journey to a stronger, fitter, and more confident you. 
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="slideshow-container">
+        <img src="assets/chrisliftscollage.jpg" alt="collage">
+      </div>
+      <div class="about__content">
+        <h2 class="section__header" style="color: white; text-align: center;">My Story</h2>
+        
+        <div class="about__grid" style="color: white;">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Introvert -> Extrovert</h4>
+              <p>
+                At the gym, recognizing introvert-extrovert differences helps tailor support and interactions to diverse workout styles and social needs.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>Being Healthy</h4>
+              <p>
+                Being healthy means balancing physical, mental, and emotional well-being.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Gymbros</h4>
+              <p>
+                "Gymbros" are workout buddies who motivate each other, fostering camaraderie and accountability in fitness goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="diet">
+      <h2 class="section__header" style="color: white;">My Diet</h2>
+      <p class="section__description">
+        A gym diet focuses on lean proteins like chicken, complex carbs such as 
+        brown rice, and healthy fats like avocados. Hydration is crucial for 
+        performance, so drink plenty of water.
+      </p>
+      <div class="slider-container">
+        <div class="slide active">
+          <a href="https://drive.google.com/file/d/1oCt6AGi1fkCEv6BO9_wy9wlFhA6BLJx0/view?usp=drive_link">
+            <img src="assets/alina-karpenko-jH1PBHevj38-unsplash.jpg" alt="Milkshakes">
+          </a>
+          <p style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">Milkshakes</p>
+        </div>
+        <div class="slide">
+          <img src="assets/eiliv-aceron-NnIWIPdxbPg-unsplash.jpg" alt="Salads">
+          <p style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">Salads</p>
+        </div>
+        <div class="slide">
+          <img src="assets/vicky-ng-yIh0i6TYGrs-unsplash (1).jpg" alt="Meals">
+          <p style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">Meals</p>
+        </div>
+      </div>
+      <div class="slider-nav">
+        <button class="nav-btn" onclick="changeSlide(0)">1</button>
+        <button class="nav-btn" onclick="changeSlide(1)">2</button>
+        <button class="nav-btn" onclick="changeSlide(2)">3</button>
+      </div>
+    </section>
+
+
+    <section class="section__container video__container" id="video">
+      <h2 class="section__header" style="text-align: center; color: white;">My Videos</h2>
+      
+      <div class="video__grid">
+        <div class="video__card">
+          <div class="video__content">
+          
+            <video width="320" height="500"  controls>
+              <source src="assets/video1.mp4" type="video/mp4">
+  
+            </video>
+            <br><br>
+            <a href="https://www.instagram.com/p/CvhtOUcO7Yk/" target="_blank"><button class="btn" >Watch now</button></a>
+            
+          </div>
+        </div>
+       
+        <div class="video__card">
+          <div class="video__content">
+          
+            <video width="320" height="500"  controls>
+              <source src="assets/video2.mp4" type="video/mp4">
+  
+            </video>
+            <br><br>
+            <a href="https://www.instagram.com/p/C2O4U-ANY4m/" target="_blank"><button class="btn" >Watch now</button></a>
+          </div>
+        </div>       
+
+        <div class="video__card">
+          <div class="video__content">
+        
+            <video width="320" height="500"  controls>
+              <source src="assets/video3.mp4" hre type="video/mp4">
+   
+            </video>
+            <br><br>
+            <a href="https://www.instagram.com/p/Cxcc_RQMF4L/" target="_blank"><button class="btn">Watch now</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col" style="color: white;">
+          <div class="footer__logo" style="color: #e0ac0d;">
+            <a href="assets/icons8-gym-64 (1).png">CHRISLIFTS</a>
+          </div>
+          <p>
+            Take the first step towards a healthier, stronger you with our
+            unbeatable pricing plans. Let's sweat, achieve, and conquer
+            together!
+          </p>
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/christopher-ambatti-014155247/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://www.instagram.com/chrissliftsx/" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.youtube.com/@chrisambatti/shorts" target="_blank"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer__col" style="color: white;">
+          <h4>About Me</h4>
+          <div class="footer__links" style="color: white;">
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Youtube</a>
+          </div>
+        </div>
+        <div class="footer__col" style="color: white;">
+          <h4>Contact</h4>
+          <div class="footer__links" style="color: white;">
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">BMI Calculator</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar" style="color: white; font-size: 15px;">
+        Made with <i class="ri-heart-fill" style="color: red;"></i> by Christopher
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+ <!-- Scripts -->
+
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  const buttons = document.querySelectorAll('.nav-btn');
+
+  function changeSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    buttons[currentSlide].classList.remove('active');
+    currentSlide = index;
+    slides[currentSlide].classList.add('active');
+    buttons[currentSlide].classList.add('active');
+  }
+
+  // Auto change slide every 5 seconds
+  setInterval(() => {
+    let nextSlide = currentSlide + 1;
+    if (nextSlide >= slides.length) {
+      nextSlide = 0; // Go back to the first slide if reached the end
+    }
+    changeSlide(nextSlide);
+  }, 3000); // Change every 5 seconds
+</script>
