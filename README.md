@@ -57,7 +57,7 @@ Gym-Web/
 
 ## 📷 Screenshots (optional)
 
-*Add screenshots here if you want to show off the design.*
+![alt text](website demo image/diet.png "Logo Title Text 1")
 
 ---
 
